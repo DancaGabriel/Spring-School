@@ -606,14 +606,14 @@ footer {
 
 .section3{
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: row;
 }
 
 .section3_1{
-    height: 100%;
+    height: auto;
     width: 20%;
     display: flex;
     flex-direction: row;
@@ -622,7 +622,7 @@ footer {
 }
 
 .section3_2{
-    height: 100%;
+    height: auto;
     width: 20%;
     display: flex;
     align-items: center;
@@ -630,23 +630,17 @@ footer {
 }
 
 .section3_3{
-    height: 100%;
+    height: auto;
     width: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section22img{
-    width: 90%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 
 .section3_4{
-    height: 100%;
+    height: auto;
     width: 16%;
     display: flex;
     align-items: center;
@@ -654,7 +648,7 @@ footer {
 }
 
 .section3_5{
-    height: 100%;
+    height: auto;
     width: 12%;
     display: flex;
     align-items: center;
