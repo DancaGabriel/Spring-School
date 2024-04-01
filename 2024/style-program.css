@@ -144,10 +144,10 @@ body {
     }
 }
 
-.bara{
+.bara {
     width: 100%;
     height: auto;
-    background-color: rgb(20,27,52);
+    background-color: rgb(20, 27, 52);
 }
 
 
@@ -725,6 +725,10 @@ footer {
 
 }
 
+.section3_1 p {
+    text-align: center;
+}
+
 .section3_2 {
     height: auto;
     width: 12%;
@@ -732,6 +736,11 @@ footer {
     align-items: center;
     justify-content: center;
 
+}
+
+
+.section3_2 p {
+    text-align: center;
 }
 
 .section3_3 {
@@ -795,6 +804,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 .section3_1secondary p {
     text-align: center;
 }
@@ -1183,5 +1193,17 @@ footer {
         justify-content: center;
         padding-top: 1vh;
         padding-bottom: 1vh;
+    }
+}
+
+@media (max-width: 440px) {
+    .org-text6-2023 {
+        width: 17%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
