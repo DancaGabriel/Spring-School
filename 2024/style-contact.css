@@ -142,8 +142,8 @@ body{
 .bara{
     width: 100%;
     height: auto;
-    background-image: url('https://events.info.uaic.ro/spring-school/logo.jpeg');}
-
+    background-color: rgb(20,27,52);
+}
 
 
 .navbar ul{
