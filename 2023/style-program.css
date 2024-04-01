@@ -14,6 +14,11 @@ body{
     line-height: 1.5;
 }
 
+.text-org{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .fake-body {
     background-size: cover;
     background-position: center;

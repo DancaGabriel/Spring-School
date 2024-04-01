@@ -663,6 +663,10 @@ footer {
     justify-content: center;
 }
 
+.text-org{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .section2_1{
     height: 100%;
     width: 20%;
