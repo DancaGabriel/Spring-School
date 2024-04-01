@@ -231,7 +231,7 @@ body{
 
 .images1{
     display: flex;
-    height: auto;
+    height: 20vh;
     width: 100%;
     background-color: white;
     flex-direction: row;
@@ -240,7 +240,7 @@ body{
 
 .image1-1{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,7 +320,6 @@ body{
 }
 .organizers-images-parts img{
     max-width: 100%;
-    max-height: 100%;
 }
 
 .organizers-people{
@@ -686,8 +685,21 @@ footer {
     align-items: center;
 }
 
+.cuza-organizers{
+    max-height: 100%;
+}
 
+.fii-organizers {
+    max-height: 55%;
+}
 
+.iTransfer-organizers{
+    max-height: 100%;
+}
+
+.fii {
+    max-height: 70%;
+}
 
 
 
