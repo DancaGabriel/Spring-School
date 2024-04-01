@@ -423,14 +423,14 @@ footer {
 
 .text-organizers-2023{
     width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
 .text-organizers2-2023{
     width: 100%;
-    height: 50px;
+    height: auto;
     padding-left: 15px;
     color: blueviolet;
 }
