@@ -193,6 +193,8 @@ body{
     width: 100%;
     height: 70px;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .home-t2{
@@ -345,6 +347,11 @@ body{
     width: 100%;
     background-color: white;
     height: 100px;
+}
+
+.contact p,a{
+    display:flex;
+    justify-content: center;
 }
 
 .contact-nume{
