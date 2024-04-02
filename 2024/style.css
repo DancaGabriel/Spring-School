@@ -239,8 +239,8 @@ body {
     width: 90%;
     height: 50px;
     margin-top: 0;
-    border-bottom: 1px solid #1f1209;
-    box-shadow: 0 20px 20px -20px #333;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 20px 20px -20px #d6d6d6;
     margin: -50px auto 10px;
 }
 
