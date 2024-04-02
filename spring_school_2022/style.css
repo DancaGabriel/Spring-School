@@ -5,20 +5,25 @@
 }
 
 body{
-    min-height: 160vh;
-    background-image: url('data:image/jpeg;base64,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');
-    background-size: cover;
+    min-height: 100vh;
+    background-image: url(../back.jpg);
+    background-size: auto;
     background-position: center;
+    color: #444545;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
 }
 
 .fake-body {
     background-size: cover;
     background-position: center;
-    min-height: 150vh;
+    min-height: 100vh;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -31,22 +36,40 @@ body{
     align-items: center;
     flex-direction: column;
     flex-grow: 1; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     border-radius: 10px;
-    border: 2px solid black;
 
 }
+.site-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    line-height: 70px;
+    color: rgb(86, 86, 86);
+    text-shadow: rgb(245, 245, 245) 2px 1px 0px, rgb(184, 184, 181) 3px 3px 0px;
+    p{
+        padding-top: 20px;
+    }
+    img{
+        height: auto;
+        width: 120px;
+    }
+}
+.bara{
+    font-family: "Raleway", sans-serif;
 
+}
 .header{
    display: flex;
    flex-direction: column;
    width: 100%;
    margin: 0;
    top: 0;
-   height: 160px;;
-   background-size: cover;
-   background-position: center;
-   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8H4aA1tXzjvkKnIhl3Vy5Dcp3OGXJqVeE0qy9LVbJB1xQgX-8ggFFrzJQB-FAHjddaM&usqp=CAU');
-
+   height: 160px;
+   background-image: url(../header.jpg);
 }
 
 .adresa{
@@ -68,9 +91,9 @@ body{
     width: 35%;
     margin-top: 10px;
     margin-left: 10px;
+    padding-top: 20px;
 
 }
-
 
 .responsive-menu-container{
     display: none;
@@ -116,7 +139,6 @@ body{
     justify-content: center;
     cursor: pointer;
 }
-
 @media (max-width: 800px) {
     .header {
         display: flex;
@@ -140,15 +162,14 @@ body{
 }
 
 .bara{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
     width: 100%;
     height: auto;
-    background-color: aquamarine;
-    background-size: cover;
-    background-position: center;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8H4aA1tXzjvkKnIhl3Vy5Dcp3OGXJqVeE0qy9LVbJB1xQgX-8ggFFrzJQB-FAHjddaM&usqp=CAU');
+    background-image: url(../mini-header.jpg);
+    background-size: 50%;
+    background-position: bottom;
 }
+
+
 
 .navbar ul{
     list-style-type: none;
@@ -156,22 +177,27 @@ body{
     margin: 0px;
     overflow: hidden;
     display: flex; 
-    justify-content: left;
+    justify-content: center;
 }
 
 .navbar a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 12px;
     display: block;
-    
+    text-align: center;
     font-size: 21px;
     transition: background-color 0.3s, color 0.3s;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .navbar a:hover {
-    color: white;
+    
+    color: rgb(249, 237, 71);
+}
+
+.navbar li {
+    justify-content: center;
 }
 
 @media (max-width: 1233px) {
@@ -184,7 +210,8 @@ body{
 .text-stuff{
     width: 100%;
     background-color: white;
-    height: auto;
+    height: 100%;
+    
 }
 
 .home-t{
@@ -200,58 +227,28 @@ body{
 }
 
 .home-text{
-    font-size: 35px;
-    color: darkblue;
-    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(79, 79, 79);
+    padding-left: 30px;
+    text-align: left;
     padding-top: 10px;
 }
 
-.text1{
-    width: 90%;
-    height: 65px;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
+.text-1{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.text2{
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
+hr{
+    color: #dad8d8;
 }
-
-.text3{
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-.text4{
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-.text5{
-    width: 100%;
-    height: 90px;
-    background-color: white;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
 .text6{
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: white;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-top: 20px;
+    padding-right: 30px;
 }
 
 .line{
@@ -260,7 +257,7 @@ body{
 
 .images1{
     display: flex;
-    height: 160px;
+    height: auto;
     width: 100%;
     background-color: white;
     flex-direction: row;
@@ -269,15 +266,21 @@ body{
 
 .image1-1{
     width: 50%;
-    height: 160px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-.fii1{
-    height: 92%;
+
+.image1-11{
+    width: 50%;
+    height: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .fii2{
     width: 50%;
@@ -303,11 +306,12 @@ body{
 .main-organizers{
     width: 100%;
     height: auto;
+    
 }
 
 .organizers-images{
     align-items: center;
-    height: 200px;
+    height: 20vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -322,8 +326,9 @@ body{
 
 
 .organizers-names{
+    padding-top: 20px;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -331,7 +336,7 @@ body{
 }
 
 .organizers-names-text{
-    width: 33.33%;
+    width: 33%;
     height: auto;
     background-color: white;
     display: flex;
@@ -342,34 +347,28 @@ body{
 }
 
 .organizers-images-parts{
-    width: 33.33%;
-    height: 200px;
+    width: 33%;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .organizers-images-parts img{
     max-width: 100%;
-    max-height: 100%;
 }
 
 .organizers-people{
-    height: 340px;
-    background-color: brown;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
 }
 
 .organizerrr{
-    height: 340px;
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+    width: 50%;
+    height: auto;
     text-align: center;
 }
 
@@ -391,7 +390,7 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
     text-decoration: none;
-    color: #0063B5;
+    color: #009ab5;
 }
 
 .past-editions{
@@ -413,36 +412,60 @@ body{
 .buton{
     width: 40%;
     height: 40px;
-    background-color: #0063B5;
+    background-color: #00a3b5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .text-past{
-    color: rgb(189, 189, 189);
+    color: rgb(244, 239, 239);
     text-decoration: none;
 }
 
 footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
     height: 120%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
+.line{
+    width: 70%;
+    height: 10px;
+    box-shadow: 0 20px 20px -20px #9b9b9b;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
+
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
 .text-organizers-2022{
     width: 100%;
-    height: 100%;
+    height: 200px;
     display: flex;
     flex-direction: column;
 }
 
 .text-organizers2-2022{
     width: 100%;
-    height: 100%;
+    height: 60px;
     padding-left: 15px;
-    color: blueviolet;
+    color: rgb(49, 93, 103);
 }
 
 
@@ -466,7 +489,7 @@ footer {
 }
 
 .org-text2-2022{
-    width: 20%;
+    width: 15%;
     height: 30px;;
     background-color:white;
     align-items: center;
@@ -476,7 +499,7 @@ footer {
 }
 
 .org-text3-2022{
-    width: 20%;
+    width: 15%;
     height: 30px;
     background-color:white;
     align-items: center;
@@ -486,7 +509,7 @@ footer {
 }
 
 .org-text4-2022{
-    width: 32%;
+    width: 50%;
     height: 30px;
     background-color:white;
     align-items: center;
@@ -496,7 +519,7 @@ footer {
 }
 
 .org-text5-2022{
-    width: 16%;
+    width: 20%;
     height: 30px;;
     background-color:white;
     display: flex;
@@ -535,19 +558,17 @@ footer {
 }
 
 .section2{
-    height: fit-content;
-    text-indent: 0%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .section2_1{
     height: 100%;
-    width: 20%;
+    width: 15%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -557,7 +578,7 @@ footer {
 
 .section2_2{
     height: 100%;
-    width: 20%;
+    width: 15%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -568,18 +589,19 @@ footer {
 
 .section2_3{
     height: 100%;
-    width: 32%;
+    width: 50%;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 
 .section2_4{
     height: 100%;
-    width: 16%;
+    width: 20%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -608,7 +630,7 @@ footer {
 .section2_1secundary{
     width: 50%;
     background-color: white;
-    height: 100%;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -621,14 +643,14 @@ footer {
 
 .section3{
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: row;
 }
 
 .section3_1{
-    height: 100%;
+    height: auto;
     width: 20%;
     display: flex;
     flex-direction: row;
@@ -637,7 +659,7 @@ footer {
 }
 
 .section3_2{
-    height: 100%;
+    height: auto;
     width: 20%;
     display: flex;
     align-items: center;
@@ -645,15 +667,17 @@ footer {
 }
 
 .section3_3{
-    height: 100%;
+    height: auto;
     width: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
+
 .section3_4{
-    height: 100%;
+    height: auto;
     width: 16%;
     display: flex;
     align-items: center;
@@ -661,7 +685,7 @@ footer {
 }
 
 .section3_5{
-    height: 100%;
+    height: auto;
     width: 12%;
     display: flex;
     align-items: center;
@@ -693,9 +717,12 @@ footer {
     align-items: center;
 }
 
-
-
-
-
-
-
+.iTransfer-organizersa{
+    max-height: 100%;
+}
+.cuza-organizers{
+    max-height: 100%;
+}
+.fii-organizers{
+    max-height: 70%;
+}
