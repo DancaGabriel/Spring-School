@@ -234,7 +234,7 @@ body {
 
 .home-t2 {
     width: 100%;
-    height: 110px;
+    height: 100%;
     background-color: white;
 }
 
@@ -438,7 +438,6 @@ hr {
 }
 
 footer {
-    padding-top: 30px;
     padding-bottom: 30px;
     height: 120%;
     display: flex;
@@ -859,4 +858,10 @@ footer {
 }
 
 
+}
+@media (max-width: 400px){
+    .fake-body {
+        width: 400px;
+       
+    }
 }
