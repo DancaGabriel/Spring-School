@@ -630,7 +630,7 @@ footer {
 .section2_1secundary{
     width: 50%;
     background-color: white;
-    height: 180px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -726,3 +726,9 @@ footer {
 .fii-organizers{
     max-height: 70%;
 }
+
+
+
+
+
+
