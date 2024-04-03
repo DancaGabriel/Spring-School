@@ -344,7 +344,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: start;
 }
 
@@ -708,7 +708,12 @@ footer {
     max-height: 70%;
 }
 
-
+@media (max-width: 400px){
+    .fake-body {
+        width: 400px;
+       
+    }
+}
 
 
 

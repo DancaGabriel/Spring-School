@@ -212,7 +212,7 @@ body {
 .home-text {
     font-size: 35px;
     color: darkblue;
-    padding-left: 30px;
+
     padding-top: 10px;
 }
 
@@ -282,8 +282,6 @@ body {
     height: auto;
     display: flex;
     flex-direction: row;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .text-fii {
@@ -293,8 +291,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .main-organizers {
