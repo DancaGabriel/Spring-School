@@ -52,7 +52,7 @@ body {
     width: 100%;
     margin: 0;
     top: 0;
-    height: 160px;
+    height: auto;
     background-image: url('https://events.info.uaic.ro/spring-school/logo.jpeg');
 }
 

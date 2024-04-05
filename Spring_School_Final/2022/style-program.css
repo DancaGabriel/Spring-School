@@ -25,12 +25,12 @@ body {
     align-items: center;
 }
 
-.culoare-program{
-    color:#02bdd5;
+.culoare-program {
+    color: #02bdd5;
     text-decoration: none;
 }
 
-.line3{
+.line3 {
     padding-right: 30px;
     padding-left: 30px;
     min-width: 100%;
@@ -38,13 +38,13 @@ body {
     height: 100%;
 }
 
-.horizontal-rule{
+.horizontal-rule {
     height: 0.5px;
     border: none;
     background: #dddddd;
 }
 
-.header-objects{
+.header-objects {
     display: flex;
     flex-direction: row;
     height: auto;
@@ -83,8 +83,8 @@ body {
     }
 
     img {
-        height: auto;
-        width: 120px;
+        max-height: 15vh;
+        /* width: 120px; */
     }
 }
 
@@ -837,52 +837,55 @@ footer {
     }
 
 
-    
-.org-text2-2022 {
-    width: 19%;
-    height: 100%;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
+    .org-text2-2022 {
+        width: 19%;
+        height: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
 
-.org-text3-2022 {
-    width: 19%;
-    height: 100%;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+    .org-text3-2022 {
+        width: 19%;
+        height: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
 
-.org-text4-2022 {
-    width: 42%;
-    height: 100%;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+    .org-text4-2022 {
+        width: 42%;
+        height: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
-.org-text5-2022 {
-    width: 20%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+    .org-text5-2022 {
+        width: 20%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
+    .fake-body {
+        width: 400px;
+    }
 
 }
