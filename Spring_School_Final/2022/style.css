@@ -843,6 +843,14 @@ footer {
 }
 
 
+@media (max-width: 400px){
+    .fake-body {
+        width: 400px;
+    }
+}
+
+
+
 
 
 

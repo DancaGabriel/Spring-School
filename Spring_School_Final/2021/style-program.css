@@ -901,10 +901,9 @@ footer {
 
 
 }
-
-@media (max-width: 350px){
+@media (max-width: 400px){
     .fake-body {
-        width: 350px;
+        width: 400px;
        
     }
 }
