@@ -874,3 +874,10 @@ footer {
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+@media (max-width: 400px){
+    .fake-body {
+        width: 400px;
+       
+    }
+}
