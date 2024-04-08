@@ -785,10 +785,11 @@ footer {
 .section3_4 {
     height: auto;
     width: 18%;
+    background-color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .section3_4 p {
