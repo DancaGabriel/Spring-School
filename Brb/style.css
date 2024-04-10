@@ -430,6 +430,10 @@ footer {
     align-items: flex-end;
 }
 
+.link-1{
+    font-size: 20px;
+}
+
 /* .horizontal-line {
 
     height: 1px;
