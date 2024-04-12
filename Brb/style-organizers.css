@@ -318,7 +318,7 @@ body{
 }
 
 .organizers-names-text{
-    width: 33%;
+    width: 25%;
     height: auto;
     background-color: white;
     display: flex;
@@ -326,10 +326,12 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .organizers-images-parts{
-    width: 33%;
+    width: 25%;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -706,6 +708,27 @@ footer {
 }
 .fii-organizers{
     max-height: 70%;
+}
+.ads-organizers{
+    max-height: 100%;
+}
+
+
+@media (max-width: 500px){
+
+    .iTransfer-organizersa{
+        max-height: 100%;
+    }
+    .cuza-organizers{
+        max-height: 60%;
+    }
+    .fii-organizers{
+        max-height: 40%;
+    }
+    .ads-organizers{
+        max-height: 100%;
+    }
+
 }
 
 @media (max-width: 400px){
